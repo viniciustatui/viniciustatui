@@ -41,7 +41,7 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="./profile/stats.svg" alt="Vinicius GitHub Stats" />
+    <img height="180" src="./profile/stats.svg" alt="Aguardando Action Rodar" />
     
     <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula"/>
   </a>
