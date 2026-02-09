@@ -22,7 +22,7 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 - 🔭 **Atualmente trabalhando em:** Projetos acadêmicos e pessoais em C#.
 - 🌱 **Estudando:** ASP.NET Core, Entity Framework, SQL Server e Arquitetura de Software.
 - 🎯 **Objetivo:** Busco minha primeira oportunidade como **Estagiário/Trainee em .NET**.
-- 🎲 **Curiosidade:** Sou *Dungeon Master* de D&D 5E! Isso me ensinou a gerenciar equipes, improvisar soluções rápidas e criar mundos complexos (seja no papel ou no código).
+- 🎲 **Curiosidade:** Sou *Dungeon Master* de D&D 5E! Isso me ensinou a gerenciar equipes, improvisar soluções rápidas e criar mundos complexos.
 
 ---
 
@@ -33,7 +33,7 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  </div>
+</div>
 
 ---
 
@@ -41,7 +41,8 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=viniciustatui&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula"/>
+    <img height="180" src="./profile/stats.svg" alt="Vinicius GitHub Stats" />
+    
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula"/>
   </a>
 </div>
