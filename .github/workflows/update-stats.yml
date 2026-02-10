@@ -2,28 +2,35 @@ name: Update README cards
 on:
   schedule:
     - cron: "0 3 * * *" # Roda todo dia às 3am
-  workflow_dispatch:    # Permite rodar manualmente clicando no botão
+  workflow_dispatch:    # Permite rodar manualmente
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
-      # Passo 1: Gera o Card de Linguagens (O que estava quebrado)
+      # Passo 1: Gera o Card de Linguagens (Personalizado)
       - name: Generate Top Langs
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=viniciustatui&layout=compact&theme=dracula
+          # AQUI ESTÁ A MÁGICA:
+          # locale=pt-br -> Português
+          # title_color=2F80ED -> Azul Neon (No lugar do Rosa)
+          # icon_color=FFCA28 -> Laranja (No lugar do Azul)
+          # text_color=ffffff -> Branco (Para leitura clara)
+          options: username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=ffffff
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Passo 2: Salva as imagens no repositório
+      # Passo 2: Salva as imagens
       - name: Commit cards
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
+          git commit -m "Update visual styles" || exit 0
           git push
