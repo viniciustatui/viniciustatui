@@ -12,25 +12,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Passo 1: Gera o Card de Linguagens (Personalizado)
+      # Passo 1: Gera o Card de Linguagens
       - name: Generate Top Langs
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          # AQUI ESTÁ A MÁGICA:
-          # locale=pt-br -> Português
-          # title_color=2F80ED -> Azul Neon (No lugar do Rosa)
-          # icon_color=FFCA28 -> Laranja (No lugar do Azul)
-          # text_color=ffffff -> Branco (Para leitura clara)
+          # Configurações de Cor e Idioma
           options: username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=ffffff
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Passo 2: Salva as imagens
+      # Passo 2: Salva as imagens (COM CORREÇÃO DO ERRO)
       - name: Commit cards
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
+          
+          # COMANDO NOVO: Atualiza antes de salvar para evitar o erro
+          git pull
+          
           git add profile/*.svg
           git commit -m "Update visual styles" || exit 0
           git push
