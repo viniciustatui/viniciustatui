@@ -64,9 +64,9 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=viniciustatui&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius GitHub Stats" />
+   <img height="180" src="https://github-readme-stats.vercel.app/api?username=viniciustatui&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius GitHub Stats" />
     
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius Top Langs" />
+   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius Top Langs" />
     
   </a>
 </div>
