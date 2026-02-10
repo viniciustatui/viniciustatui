@@ -2,7 +2,7 @@ name: Update README cards
 on:
   schedule:
     - cron: "0 3 * * *" # Roda todo dia às 3am
-  workflow_dispatch:    # Permite rodar manualmente
+  workflow_dispatch:    # Permite rodar manualmente no botão
 
 jobs:
   build:
@@ -11,26 +11,35 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      
+      # 1. Gera as Estatísticas Gerais (Com commits privados)
+      - name: Generate Stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          card: stats
+          # Aqui configuramos suas Cores e Português
+          options: username=viniciustatui&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF
+          path: profile/stats.svg
 
-      # Passo 1: Gera o Card de Linguagens
+      # 2. Gera as Linguagens Mais Usadas
       - name: Generate Top Langs
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: top-langs
-          # Configurações de Cor e Idioma
-          options: username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=ffffff
-          path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          card: top-langs
+          options: username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF
+          path: profile/top-langs.svg
 
-      # Passo 2: Salva as imagens (COM CORREÇÃO DO ERRO)
+      # 3. Salva tudo (Com proteção contra erro de conflito)
       - name: Commit cards
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # COMANDO NOVO: Atualiza antes de salvar para evitar o erro
-          git pull
+          # COMANDO DE SEGURANÇA: Atualiza o projeto antes de salvar
+          git pull origin main --rebase || git pull origin master --rebase
           
           git add profile/*.svg
-          git commit -m "Update visual styles" || exit 0
+          git commit -m "Update README stats" || exit 0
           git push
