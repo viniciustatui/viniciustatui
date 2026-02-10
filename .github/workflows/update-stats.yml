@@ -2,19 +2,24 @@ name: Update README cards
 on:
   schedule:
     - cron: "0 3 * * *" # Roda todo dia às 3am
-  workflow_dispatch:
+  workflow_dispatch:    # Permite rodar manualmente clicando no botão
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Generate stats card
+
+      # Passo 1: Gera o Card de Linguagens (O que estava quebrado)
+      - name: Generate Top Langs
         uses: readme-tools/github-readme-stats-action@v1
         with:
-          card: stats
-          options: username=viniciustatui&show_icons=true&theme=dracula
-          path: profile/stats.svg
+          card: top-langs
+          options: username=viniciustatui&layout=compact&theme=dracula
+          path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Passo 2: Salva as imagens no repositório
       - name: Commit cards
         run: |
           git config user.name "github-actions"
