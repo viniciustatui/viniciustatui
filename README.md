@@ -29,20 +29,42 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 ### 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <table>
+    <tr>
+      <td align="center" width="90">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="45" height="45" alt="C#" />
+        <br>C#
+      </td>
+      <td align="center" width="90">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" width="45" height="45" alt=".NET" />
+        <br>.NET
+      </td>
+      <td align="center" width="90">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original.svg" width="45" height="45" alt="SQL Server" />
+        <br>SQL Server
+      </td>
+      <td align="center" width="90">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="45" height="45" alt="Git" />
+        <br>Git
+      </td>
+      <td align="center" width="90">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" width="45" height="45" alt="Unity" />
+        <br>Unity
+      </td>
+    </tr>
+  </table>
 </div>
+
+<br>
 
 ---
 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="./profile/stats.svg" alt="Aguardando Action Rodar" />
-    
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula"/>
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=viniciustatui&theme=dracula&hide_border=true&locale=pt_BR&date_format=d/m/Y&ring=2F80ED&fire=2F80ED&currStreakLabel=FFCA28" alt="GitHub Streak" />
+  
+  <br><br>
+  
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula" alt="Top Langs" />
 </div>
