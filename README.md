@@ -66,5 +66,5 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
   
   <br><br>
   
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula" alt="Top Langs" />
+  <img height="180" src="./profile/top-langs.svg" alt="Top Langs" />
 </div>
