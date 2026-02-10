@@ -1,6 +1,6 @@
 <div align="center">
   
-  <h1>Olá, eu sou o Vinicius! 👋</h1>
+  <h1>Eaí! Me chamo Vinicius! 👋</h1>
   <h3>Estudante de Engenharia de Software | Foco em C# .NET & Game Dev</h3>
 
   <p align="center">
@@ -59,12 +59,14 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=viniciustatui&theme=dracula&hide_border=true&locale=pt_BR&date_format=d/m/Y&ring=2F80ED&fire=2F80ED&currStreakLabel=FFCA28" alt="GitHub Streak" />
-  
-  <br><br>
-  
-  <img height="180" src="./profile/top-langs.svg" alt="Top Langs" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=viniciustatui&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius GitHub Stats" />
+    
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius Top Langs" />
+    
+  </a>
 </div>
