@@ -1,19 +1,19 @@
 <div align="center">
   
-  <h1>Eaí! Me chamo Vinicius! 👋</h1>
+  <h1>Olá, eu sou o Vinicius! 👋</h1>
   <h3>Estudante de Engenharia de Software | Foco em C# .NET & Game Dev</h3>
 
   <p align="center">
-    <a href="https://www.linkedin.com/in/SEU-LINKEDIN" target="_blank">
+    <a href="https://www.linkedin.com/in/vinícius-almeida-da-silveira/" target="_blank">
       <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
     </a> 
-    <a href="mailto:SEU-EMAIL@gmail.com">
+    <a href="mailto:vinicius.silveiradev@gmail.com">
       <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
     </a>
   </p>
 </div>
 
----
+<br>
 
 ### 🚀 Sobre Mim
 
@@ -24,7 +24,7 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 - 🎯 **Objetivo:** Busco minha primeira oportunidade como **Estagiário/Trainee em .NET**.
 - 🎲 **Curiosidade:** Sou *Dungeon Master* de D&D 5E! Isso me ensinou a gerenciar equipes, improvisar soluções rápidas e criar mundos complexos.
 
----
+<br>
 
 ### 🛠️ Tech Stack
 
@@ -57,16 +57,14 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 
 <br>
 
----
-
 ### 📊 Estatísticas do GitHub
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     
-  <img height="180" src="./profile/stats.svg" alt="Vinicius GitHub Stats" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=viniciustatui&show_icons=true&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius Stats" />
     
-  <img height="180" src="./profile/top-langs.svg" alt="Vinicius Top Langs" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius Languages" />
     
   </a>
 </div>
