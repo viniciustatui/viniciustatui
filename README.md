@@ -4,10 +4,10 @@
   <h3>Estudante de Engenharia de Software | Foco em C# .NET & Game Dev</h3>
 
   <p align="center">
-    <a href="https://www.linkedin.com/in/vinícius-almeida-da-silveira/" target="_blank">
+    <a href="https://www.linkedin.com/in/SEU-LINKEDIN" target="_blank">
       <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
     </a> 
-    <a href="mailto:vinicius.silveiradev@gmail.com">
+    <a href="mailto:SEU-EMAIL@gmail.com">
       <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
     </a>
   </p>
@@ -60,11 +60,9 @@ Sou um entusiasta de tecnologia em transição de carreira, atualmente cursando 
 ### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=viniciustatui&show_icons=true&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius Stats" />
-    
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Vinicius Languages" />
-    
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=viniciustatui&theme=dracula&hide_border=true&locale=pt_BR&date_format=d/m/Y&ring=2F80ED&fire=2F80ED&currStreakLabel=FFCA28" alt="Streak" />
+  
+  <br><br>
+
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=viniciustatui&layout=compact&theme=dracula&hide_border=true&locale=pt-br&title_color=2F80ED&icon_color=FFCA28&text_color=FFFFFF" alt="Langs" />
 </div>
